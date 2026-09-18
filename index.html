@@ -98,19 +98,238 @@
             <p>
                 Un vehículo elegante con gran potencia.
             </p>
-      </div>
+  <!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galería de Autos</title>
+
+
+    <style>
+
+        /* ===== PÁGINA ===== */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /* ===== TÍTULO ===== */
+
+        h1 {
+            color: #222222;
+            font-size: 35px;
+            margin: 30px 0;
+        }
+
+
+        /* ===== TARJETAS DE AUTOS ===== */
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+
+        .auto {
+            background-color: white;
+            width: 350px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+        /* ===== FOTOS ===== */
+
+        .auto img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+
+        /* ===== NOMBRE DEL AUTO ===== */
+
+        h2 {
+            color: #222222;
+            font-size: 28px;
+        }
+
+
+        /* ===== DESCRIPCIÓN ===== */
+
+        .auto p {
+            color: #666666;
+            font-size: 18px;
+        }
+
+
+        /* ================================= */
+        /* ===== CONTENEDOR DE CANVA ===== */
+        /* ================================= */
+
+        .canva {
+            width: 420px;
+            max-width: 90%;
+            margin: 50px auto 30px auto;
+        }
+
+
+        /* ===== ENLACE DE CANVA ===== */
+
+        .canva a {
+            color: #0066cc;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+
+        .canva a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* ===== CANVA RESPONSIVO ===== */
+
+        @media (max-width: 600px) {
+
+            .auto {
+                width: 80%;
+            }
+
+            .canva {
+                width: 350px;
+                max-width: 85%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================================= -->
+    <!-- ===== TÍTULO DE LA PÁGINA ===== -->
+    <!-- ================================= -->
+
+    <h1>🚗 Galería de Autos</h1>
+
+
+    <!-- ================================= -->
+    <!-- ===== DOS AUTOS ===== -->
+    <!-- ================================= -->
+
+    <div class="contenedor">
+
+
+        <!-- ===== AUTO 1 ===== -->
+
+        <div class="auto">
+
+            <img src="imagenes/auto1.jpg" alt="Ford Mustang">
+
+            <h2>Ford Mustang</h2>
+
+            <p>
+                Un automóvil moderno, elegante y potente.
+            </p>
+
+        </div>
+
+
+        <!-- ===== AUTO 2 ===== -->
+
+        <div class="auto">
+
+            <img src="imagenes/auto2.jpg" alt="Dodge Challenger">
+
+            <h2>Dodge Challenger</h2>
+
+            <p>
+                Un vehículo elegante con gran potencia.
+            </p>
+
+        </div>
 
 
     </div>
 
 
+    <!-- ================================= -->
+    <!-- ===== CANVA DEBAJO DE LOS AUTOS ===== -->
+    <!-- ================================= -->
+
     <div class="canva">
 
-<div style="position: relative; width: 80%; height: 0; padding-top: 73.8298%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 80%; height: 90%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAHVfUeQKBY/hdZMqyJQ07-YU2YMgEbGkA/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHVfUeQKBY&#x2F;hdZMqyJQ07-YU2YMgEbGkA&#x2F;watch?utm_content=DAHVfUeQKBY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">carthy</a> de EVELYN ESTEFANIA PEREZ BRAVO
+
+        <div style="
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 83.8298%;
+            padding-bottom: 0;
+            box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+            margin-top: 1.6em;
+            margin-bottom: 0.9em;
+            overflow: hidden;
+            border-radius: 8px;
+            will-change: transform;
+        ">
+
+
+            <iframe
+                loading="lazy"
+                style="
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    border: none;
+                    padding: 0;
+                    margin: 0;
+                "
+                src="https://www.canva.com/design/DAHVfUeQKBY/hdZMqyJQ07-YU2YMgEbGkA/watch?embed"
+                allowfullscreen="allowfullscreen"
+                allow="fullscreen">
+            </iframe>
+
+
+        </div>
+
+
+        <a
+            href="https://www.canva.com/design/DAHVfUeQKBY/hdZMqyJQ07-YU2YMgEbGkA/watch?utm_content=DAHVfUeQKBY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+            target="_blank"
+            rel="noopener">
+
+            carthy
+
+        </a>
+
+        <span> de EVELYN ESTEFANIA PEREZ BRAVO</span>
+
+
+    </div>
+
+
+</body>
+
+</html>
